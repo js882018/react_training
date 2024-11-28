@@ -1,14 +1,10 @@
-// import {Component1} from './Component1';
-// import {Component2} from './Component2';
-
-import Randomtexts from "./Components/Randomtexts";
-import Todo from "./Components/Todo";
+import ParentComponent from "./Components/ParentComponent";
+import './style.css';
 
 export function App() {
   return (
     <div className="container">
-      <Todo/>
-      <Randomtexts/>
+      <ParentComponent/>
     </div>
   )
 }

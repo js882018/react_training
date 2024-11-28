@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #444;
+  }
+  
+  /* Container Styling */
+  div {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  div.parent-container{
+    border: 1px solid rgb(76, 73, 73);
+  }
+  
+  /* Random Text Section */
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  button.random-txt{
+    margin-left: 65px;
+  }
+
+  input.storage{
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+  }
+  
+  /* TODO Input Section */
+  input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    margin-top: 5px;
+  }
+  
+  /* TODO List Section */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li span {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  li button {
+    margin-left: 5px;
+  }
+  
+  li button:first-child {
+    background-color: #28a745;
+  }
+  
+  li button:first-child:hover {
+    background-color: #218838;
+  }
+  
+  li button:last-child {
+    background-color: #dc3545;
+  }
+  
+  li button:last-child:hover {
+    background-color: #c82333;
+  }
+  
+  /* Checkbox Section */
+  label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
